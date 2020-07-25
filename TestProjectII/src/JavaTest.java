@@ -6,9 +6,13 @@ import java.util.Scanner;
 
 public class JavaTest {
 	public static int val(int x, int y) {
-		//int z = 0;
 		int z = x + y;
 		return z;
+	}
+	
+	public static int valMinus(int c, int d) {
+		int e = c-d;
+		return e;
 	}
 
 	public static void main(String[]args) {
@@ -19,5 +23,6 @@ public class JavaTest {
 	 int a = sc.nextInt();
 	 
 	 System.out.println(val(a,b));
+	 System.out.println(valMinus(a,b));
  }
 }
